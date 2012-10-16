@@ -83,9 +83,6 @@ define('HEADER_TITLE_LOGOFF', 'Logoff');
 define('MALE', 'Male');
 define('FEMALE', 'Female');
 
-// text for date of birth example
-define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
-
 // configuration box text
 define('BOX_HEADING_CONFIGURATION', 'Configuration');
 define('BOX_CONFIGURATION_MY_STORE', 'My Store');

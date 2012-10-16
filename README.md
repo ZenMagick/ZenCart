@@ -8,9 +8,11 @@ It is currently based on ZenCart 1.5.1
 
 Modifications
 =======
+ TODO: create a script/task to do allthis once we know what it is.
 
 Added
 =======
+
 Global Modifications
 =======
 
