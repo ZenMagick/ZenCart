@@ -20,4 +20,3 @@ if (!defined('IS_ADMIN_FLAG')) {
 }
 class notifier extends base {
 }
-?>

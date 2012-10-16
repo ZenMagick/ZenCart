@@ -28,4 +28,3 @@ define('TITLE_PHP_UPLOAD_MAX', 'Max Size:');
 define('TITLE_PHP_POST_MAX_SIZE', 'POST Max Size:');
 define('PROJECT_DATABASE_LABEL','Database Patch Level: ');
 define('TITLE_MYSQL_STRICT_MODE', '(in Strict mode)');
-?>

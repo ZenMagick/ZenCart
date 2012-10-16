@@ -230,4 +230,3 @@
     }
     return $new_banner_search;
   }
-?>

@@ -120,5 +120,3 @@ function parsed_query_string($read_string) {
    }
    return $good_string;
 }
-
-?>

@@ -44,4 +44,3 @@ if (!defined('IS_ADMIN_FLAG')) {
   
     $product_types->MoveNext();
   }
-?>

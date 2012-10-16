@@ -333,4 +333,3 @@ if ($meta_tags_over_ride == true) {
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_MODULE_END_META_TAGS');
-?>

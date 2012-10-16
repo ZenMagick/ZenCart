@@ -19,4 +19,4 @@
     <div class="lineTitle larger forward"><?php echo $GLOBALS[$class]->output[$i]['title']; ?></div>
 </div>
 <br class="clearBoth" />
-<?php } ?>
+<?php }

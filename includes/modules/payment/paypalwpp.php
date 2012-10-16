@@ -2946,4 +2946,3 @@ class paypalwpp extends base {
   }
 
 }
-

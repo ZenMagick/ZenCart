@@ -41,4 +41,3 @@ if (file_exists(DIR_WS_CLASSES . 'db/' . DB_TYPE . '/define_queries.php')) {
  */
   include(DIR_WS_CLASSES . 'db/' . DB_TYPE . '/define_queries.php');
 }
-?>

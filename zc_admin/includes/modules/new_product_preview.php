@@ -19,4 +19,3 @@ if (!defined('IS_ADMIN_FLAG')) {
             $products_image_name = (isset($_POST['products_previous_image']) ? $_POST['products_previous_image'] : '');
           }
         }
-?>

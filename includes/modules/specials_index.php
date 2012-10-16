@@ -87,4 +87,3 @@ if ($num_products_count > 0) {
     $zc_show_specials = true;
   }
 }
-?>

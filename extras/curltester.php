@@ -75,4 +75,3 @@
   }
   echo '<pre>' . print_r($commInfo, true) . '</pre><br /><br />';
   if ($url != $defaultURL) echo $result . '<br>EOF';
-

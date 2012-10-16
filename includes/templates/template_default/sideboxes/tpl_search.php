@@ -24,4 +24,3 @@
 
   $content .= "</form>";
   $content .= '</div>';
-?>

@@ -17,4 +17,3 @@
  * To use 7bit, simply delete this file, or change the following to 7bit:
  */
   define('EMAIL_ENCODING_METHOD', '8bit');
-?>

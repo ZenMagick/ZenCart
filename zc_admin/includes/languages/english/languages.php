@@ -40,4 +40,3 @@ define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Delete Language');
 
 define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: The default language can not be removed. Please set another language as default, and try again.');
 define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Error: A language with that code has already been defined.');
-?>

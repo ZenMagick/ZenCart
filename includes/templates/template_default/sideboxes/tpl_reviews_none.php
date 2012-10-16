@@ -12,4 +12,3 @@
   $content .= '<div id="' . str_replace('_', '-', $box_id . 'Content') . '" class="sideBoxContent centeredContent">';
   $content .= BOX_REVIEWS_NO_REVIEWS;
   $content .= '</div>';
-?>

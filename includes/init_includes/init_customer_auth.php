@@ -156,4 +156,3 @@ switch (true) {
    */
   break;
 }
-?>

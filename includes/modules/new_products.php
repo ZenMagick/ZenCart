@@ -89,4 +89,3 @@ if ($num_products_count > 0) {
     $zc_show_new_products = true;
   }
 }
-?>

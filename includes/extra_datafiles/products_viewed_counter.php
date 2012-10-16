@@ -13,4 +13,3 @@
  * 'off' - the default counter functionality is bypassed
  */
   define('LEGACY_PRODUCTS_VIEWED_COUNTER', 'on');
-

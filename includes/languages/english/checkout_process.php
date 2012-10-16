@@ -45,4 +45,3 @@ define('TEXT_EMAIL_VIA', 'via');
 define('EMAIL_ORDER_NUMBER_SUBJECT', ' No: ');
 define('HEADING_ADDRESS_INFORMATION','Address Information');
 define('HEADING_SHIPPING_METHOD','Shipping Method');
-?>

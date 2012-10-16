@@ -21,4 +21,3 @@
 <?php echo $content; ?>
 </div>
 <!--// eof: <?php echo $box_id; ?> //-->
-

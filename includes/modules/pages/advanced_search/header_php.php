@@ -23,4 +23,3 @@
   $sData['dto'] =      (isset($_GET['dto'])   ? zen_output_string($_GET['dto']) : zen_output_string(DOB_FORMAT_STRING));
   $sData['pfrom'] =    (isset($_GET['pfrom']) ? zen_output_string($_GET['pfrom']) : '');
   $sData['pto'] =      (isset($_GET['pto'])   ? zen_output_string($_GET['pto']) : '');
-

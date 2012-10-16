@@ -20,4 +20,3 @@ if (!defined('IS_ADMIN_FLAG')) {
   $db->connect(DB_SERVER, DB_SERVER_USERNAME, DB_SERVER_PASSWORD, DB_DATABASE);
 
   $zc_cache->sql_cache_flush_cache();
-?>

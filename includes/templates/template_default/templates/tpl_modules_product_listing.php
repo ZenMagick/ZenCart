@@ -62,4 +62,4 @@
   if ($show_top_submit_button == true or $show_bottom_submit_button == true) {
 ?>
 </form>
-<?php } ?>
+<?php }

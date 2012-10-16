@@ -30,5 +30,3 @@ if (CUSTOMERS_AUTHORIZATION_COLUMN_RIGHT_OFF == 'true') $flag_disable_right = tr
 if (CUSTOMERS_AUTHORIZATION_COLUMN_LEFT_OFF == 'true') $flag_disable_left = true;
 if (CUSTOMERS_AUTHORIZATION_FOOTER_OFF == 'true') $flag_disable_footer = true;
 if (CUSTOMERS_AUTHORIZATION_HEADER_OFF == 'true') $flag_disable_header = true;
-
-?>

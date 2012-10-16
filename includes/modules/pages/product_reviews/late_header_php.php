@@ -10,4 +10,3 @@
  */
 
 $breadcrumb->add(NAVBAR_TITLE, zen_href_link(FILENAME_PRODUCT_REVIEWS, zen_get_all_get_params()));
-?>

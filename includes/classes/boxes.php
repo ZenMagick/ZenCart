@@ -190,4 +190,3 @@ class tableBox extends base {
 //    $this->tableBox($contents, true);
 //  }
 //}
-?>

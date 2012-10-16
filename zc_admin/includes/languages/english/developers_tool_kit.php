@@ -79,5 +79,3 @@
   define('TEXT_ALL_FILES_LOOKUP_JS', '.js only');
 
   define('TEXT_CASE_SENSITIVE', 'Case Sensitive?');
-
-?>

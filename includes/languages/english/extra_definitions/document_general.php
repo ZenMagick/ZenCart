@@ -21,4 +21,3 @@
 //
 
 DEFINE('BOX_HEADING_DOCUMENT_CATEGORIES', 'Documents');
-?>

@@ -63,4 +63,3 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // favicon setting
 // There is usually NO need to enable this unless you need to specify a path and/or a different filename
 //  define('FAVICON','favicon.ico');
-

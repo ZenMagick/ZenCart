@@ -72,4 +72,3 @@ define('INFO_TEXT', '<ul>
                       </li>
                     </ul>');
 define('TEXT_CLOSE_WINDOW', '[ close window ]');
-?>

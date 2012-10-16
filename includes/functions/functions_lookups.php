@@ -932,5 +932,3 @@
 
     return $new_range;
   }
-
-?>

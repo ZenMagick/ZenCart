@@ -70,4 +70,3 @@
 
   // This should be last line of the script:
   $zco_notifier->notify('NOTIFY_PRODUCT_TYPE_VARS_END_PRODUCT_MUSIC_INFO');
-?>

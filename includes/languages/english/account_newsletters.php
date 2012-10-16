@@ -17,4 +17,3 @@ define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'General Newsletter');
 define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Including store news, new products, special offers, and other promotional announcements.');
 
 define('SUCCESS_NEWSLETTER_UPDATED', 'Your newsletter subscriptions have been updated.');
-?>

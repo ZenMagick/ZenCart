@@ -83,4 +83,3 @@ define('TEXT_SORT_PAGE_ID_TITLE', 'Page ID, Title');
 
 define('TEXT_PAGE_TITLE', 'Title:');
 define('TEXT_WARNING_MULTIPLE_SETTINGS', '<strong>WARNING: Multiple Link Definition</strong>');
-?>

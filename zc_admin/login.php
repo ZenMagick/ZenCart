@@ -134,4 +134,4 @@ function animate(f)
 </body>
 <?php } ?>
 </html>
-<?php require('includes/application_bottom.php'); ?>
+<?php require('includes/application_bottom.php');

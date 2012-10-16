@@ -74,4 +74,3 @@
       $show_bottom_submit_button = false;
     }
   }
-?>

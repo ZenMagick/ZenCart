@@ -16,4 +16,3 @@ if (!defined('IS_ADMIN_FLAG')) {
     $at_product_info_array = productPricing::buildPricingResultSet($_GET['pID']);
     $at_product_info = productPricing::factory($at_product_info_array, true);
   }
-?>

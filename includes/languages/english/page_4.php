@@ -24,4 +24,3 @@ define('NAVBAR_TITLE', 'Page 4');
 define('HEADING_TITLE', 'Page 4');
 
 define('TEXT_INFORMATION', 'Page 4 information goes here.');
-?>

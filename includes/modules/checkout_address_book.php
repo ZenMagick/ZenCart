@@ -23,4 +23,3 @@ $addresses_query = "select address_book_id, entry_firstname as firstname, entry_
 
 $addresses = $db->Execute($addresses_query);
 if (!$addresses->EOF) $radio_buttons = $addresses->recordCount();
-?>

@@ -209,4 +209,3 @@ define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Product is call for price');
   define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Description:');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'WARNING: You have Products in the Top Level Category. This will cause pricing to not work properly in the Catalog. Products found: ');
-

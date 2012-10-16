@@ -18,4 +18,3 @@
   $content .= '<li><a href="' . zen_href_link(FILENAME_DEFAULT, 'manufacturers_id=' . $manufacturer_info_sidebox->fields['manufacturers_id']) . '">' . BOX_MANUFACTURER_INFO_OTHER_PRODUCTS . '</a></li>' . "\n" ;
   $content .= '</ul>' . "\n" ;
   $content .= '</div>';
-?>

@@ -65,4 +65,3 @@
   } // test for display
 
   $zco_notifier->notify('NOTIFY_END_EZPAGES_SIDEBOX');
-?>

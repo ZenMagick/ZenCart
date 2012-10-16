@@ -64,4 +64,3 @@ function securityPatchSanitizePostVariableProductsId ($arrayToSanitize)
   }
   return $arrayToSanitize;
 }
-  

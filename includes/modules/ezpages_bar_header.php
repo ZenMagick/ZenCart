@@ -61,4 +61,3 @@ if (EZPAGES_STATUS_HEADER == '1' or (EZPAGES_STATUS_HEADER == '2' and (strstr(EX
 } // display
 
 $zco_notifier->notify('NOTIFY_END_EZPAGES_HEADERBAR');
-?>

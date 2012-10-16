@@ -8,4 +8,3 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: tpl_popup_image_default.php 2306 2005-11-05 21:34:28Z wilt $
  */
-?>

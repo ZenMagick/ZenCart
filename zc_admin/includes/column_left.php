@@ -18,4 +18,3 @@ if (!defined('IS_ADMIN_FLAG')) {
   require(DIR_WS_BOXES . 'localization.php');
   require(DIR_WS_BOXES . 'reports.php');
   require(DIR_WS_BOXES . 'tools.php');
-?>

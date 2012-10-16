@@ -22,4 +22,4 @@
   <a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a><?php echo ($i < $n ? EZPAGES_SEPARATOR_HEADER : '') . "\n"; ?>
 <?php } // end FOR loop ?>
 </div>
-<?php } ?>
+<?php }

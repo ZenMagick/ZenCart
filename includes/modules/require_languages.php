@@ -36,5 +36,3 @@ if ($template_dir_select != '') {
     require_once($language_page_directory . $value);
   }
 }
-
-?>

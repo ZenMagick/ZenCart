@@ -49,4 +49,3 @@ define('TEXT_INFO_MAX_COUNT', 'Max Downloads: ');
 
 define('TEXT_INFO_FILENAME_MISSING','&nbsp;Missing filename');
 define('TEXT_INFO_FILENAME_GOOD','&nbsp;Valid filename');
-?>

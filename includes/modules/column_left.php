@@ -34,4 +34,3 @@ if ( file_exists(DIR_WS_MODULES . 'sideboxes/' . $template_dir . '/' . $column_l
   $column_left_display->MoveNext();
 } // while column_left
 $box_id = '';
-?>

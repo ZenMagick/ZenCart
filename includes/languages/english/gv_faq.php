@@ -95,4 +95,3 @@ validated and the amount added to your ' . TEXT_GV_NAME . ' Account. You can the
 
   define('TEXT_GV_REDEEM_INFO', 'Please enter your ' . TEXT_GV_NAME . ' redemption code: ');
   define('TEXT_GV_REDEEM_ID', 'Redemption Code:');
-?>

@@ -50,4 +50,3 @@ TABLE_ORDERS_PRODUCTS_DOWNLOAD . " opd
                           and o.orders_id = '" . (int)$last_order . "'
                           and opd.orders_products_filename != ''
                           ");
-?>

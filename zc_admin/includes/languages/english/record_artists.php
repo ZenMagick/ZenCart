@@ -42,4 +42,3 @@
   define('TEXT_DISPLAY_NUMBER_OF_ARTISTS', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Recording Artists)');
   define('TEXT_DELETE_PRODUCTS', 'Delete this Recording Artist and all items linked to it?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s items still linked to this Recording Artist!');
-?>

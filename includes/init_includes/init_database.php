@@ -36,4 +36,3 @@ if (!$db->connect(DB_SERVER, DB_SERVER_USERNAME, DB_SERVER_PASSWORD, DB_DATABASE
     exit;
   }
 }
-?>

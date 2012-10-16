@@ -113,4 +113,3 @@ class currencies extends base {
     return $this->format(zen_add_tax($products_price, $products_tax) * $quantity);
   }
 }
-?>

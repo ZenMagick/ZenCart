@@ -23,5 +23,3 @@ if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_s
 } else {
   require(DIR_WS_LANGUAGES . $_SESSION['language'] . '/checkout_process.php');
 }
-
-?>

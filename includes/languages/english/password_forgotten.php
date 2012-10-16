@@ -20,4 +20,3 @@ define('EMAIL_PASSWORD_REMINDER_SUBJECT', STORE_NAME . ' - New Password');
 define('EMAIL_PASSWORD_REMINDER_BODY', 'A new password was requested from ' . $_SERVER['REMOTE_ADDR']  . '.' . "\n\n" . 'Your new password to \'' . STORE_NAME . '\' is:' . "\n\n" . '   %s' . "\n\nAfter you have logged in using the new password, you may change it by going to the 'My Account' area.");
 
 define('SUCCESS_PASSWORD_SENT', 'A new password has been sent to your email address.');
-?>

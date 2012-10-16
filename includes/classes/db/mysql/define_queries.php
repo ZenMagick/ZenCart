@@ -33,4 +33,3 @@ DEFINE('SQL_ALSO_PURCHASED', "select p.products_id, p.products_image
                      order by o.date_purchased desc
                      limit " . MAX_DISPLAY_ALSO_PURCHASED);
 DEFINE('SQL_SHOW_SHOPPING_CART_EMPTY',"select configuration_key, configuration_value from " . TABLE_CONFIGURATION . " where configuration_key RLIKE 'SHOW_SHOPPING_CART_EMPTY' and configuration_value > 0 order by configuration_value");
-?>

@@ -48,4 +48,3 @@ if (isset($_GET['products_id']) && SHOW_PRODUCT_INFO_COLUMNS_ALSO_PURCHASED_PROD
     $zc_show_also_purchased = true;
   }
 }
-?>

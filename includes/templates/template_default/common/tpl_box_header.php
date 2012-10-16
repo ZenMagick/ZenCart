@@ -9,4 +9,4 @@
  * @version $Id: tpl_box_header.php 2982 2006-02-07 07:56:41Z birdbrain $
  */
 ?>
-<?php echo $content; ?>
+<?php echo $content;

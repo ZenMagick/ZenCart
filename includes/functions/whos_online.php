@@ -104,4 +104,3 @@ function whos_online_session_recreate($old_session, $new_session) {
   $sql = $db->bindVars($sql, ':oldSessionID', $old_session, 'string'); 
   $db->Execute($sql);
 }
-?>

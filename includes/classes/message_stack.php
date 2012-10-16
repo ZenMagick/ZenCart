@@ -102,4 +102,3 @@ class messageStack extends base {
     return $count;
   }
 }
-?>

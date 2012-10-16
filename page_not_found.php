@@ -16,4 +16,3 @@
 */
 header("HTTP/1.1 301 Moved Permanently");
 header("Location: index.php?main_page=page_not_found");
-?>

@@ -588,4 +588,3 @@
 
     return html_graph($names, $values, $bars, $graph_vals, $dvalues, $dbars);
   }
-?>

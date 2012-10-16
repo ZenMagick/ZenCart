@@ -67,4 +67,3 @@ define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to permanently delete th
 define('TEXT_MORE_INFO', '(More Info)');
 
 define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Warning : %s sales already include this category');
-?>

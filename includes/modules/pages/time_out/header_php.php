@@ -106,4 +106,3 @@ $breadcrumb->add(NAVBAR_TITLE);
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_LOGIN_TIMEOUT');
 $zco_notifier->notify('NOTIFY_HEADER_END_LOGIN');
-?>

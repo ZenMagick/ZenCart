@@ -44,5 +44,3 @@ define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Three Stars');
 define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Two Stars');
 define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'One Star');
 //define('OTHER_xxx_ALT', '');
-
-?>

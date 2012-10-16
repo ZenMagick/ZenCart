@@ -8,6 +8,7 @@ It is currently based on ZenCart 1.5.1
 
 Modifications
 =======
+
 Added
 =======
 Global Modifications

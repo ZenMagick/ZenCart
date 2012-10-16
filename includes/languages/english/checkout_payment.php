@@ -34,4 +34,3 @@ define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">I have read and agr
 
 define('TEXT_CHECKOUT_AMOUNT_DUE', 'Total Amount Due: ');
 define('TEXT_YOUR_TOTAL','Your Total');
-?>

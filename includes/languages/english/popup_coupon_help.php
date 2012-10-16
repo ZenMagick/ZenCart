@@ -32,4 +32,3 @@ define('TEXT_NO_PROD_RESTRICTIONS', '<p>This coupon is valid for all products.</
 define('TEXT_COUPON_GV_RESTRICTION','Discount Coupons may not be applied towards the purchase of ' . TEXT_GV_NAMES . '.');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Billing Address Restrictions apply.');
-?>

@@ -27,4 +27,3 @@ $zen_SiteMapTree = new zen_SiteMapTree;
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_PAGE_NOT_FOUND');
-?>

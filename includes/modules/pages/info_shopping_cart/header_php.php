@@ -10,4 +10,3 @@
  */
 require(DIR_WS_MODULES . zen_get_module_directory('require_languages.php'));
 $_SESSION['navigation']->remove_current_page();
-?>

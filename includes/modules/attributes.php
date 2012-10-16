@@ -608,4 +608,3 @@ $sql = "select count(*) as total
               //      zen_draw_hidden_field('number_of_uploads', $_GET['number_of_uploads']);
               zen_draw_hidden_field('number_of_uploads', $number_of_uploads);
             }
-

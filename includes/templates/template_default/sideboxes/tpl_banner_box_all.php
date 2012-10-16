@@ -41,4 +41,3 @@
     $banners_all->MoveNext();
   }
   $content .= '</div>';
-?>

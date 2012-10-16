@@ -814,4 +814,3 @@ class lphp
 		return $xml;
 	}
 }
-?>

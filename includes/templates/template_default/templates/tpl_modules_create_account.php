@@ -194,4 +194,4 @@
 <?php echo zen_draw_input_field('customers_referral', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_referral', '15') . ' id="customers_referral"'); ?>
 <br class="clearBoth" />
 </fieldset>
-<?php } ?>
+<?php }

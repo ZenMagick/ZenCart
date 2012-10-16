@@ -40,5 +40,3 @@ define('TEXT_INFO_TEMPLATE_INSTALLED', 'Templates Installed');
 define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'Associate Template with language');
 define('TEXT_INFO_INSERT_INTRO', 'Choose below to associate a template with a language');
 define('IMAGE_NEW_TEMPLATE', 'Create a new template/language association');
-
-?>

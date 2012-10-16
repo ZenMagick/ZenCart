@@ -72,4 +72,3 @@ class breadcrumb extends base {
     return $this->_trail[$trail_size-1]['title'];
   }
 }
-?>

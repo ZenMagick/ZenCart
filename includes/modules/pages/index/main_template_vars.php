@@ -218,4 +218,3 @@ require($template->get_template_dir($tpl_page_body, DIR_WS_TEMPLATE, $current_pa
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_INDEX_MAIN_TEMPLATE_VARS');
-?>

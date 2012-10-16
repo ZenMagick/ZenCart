@@ -40,4 +40,3 @@
   define('TEXT_DISPLAY_NUMBER_OF_MUSIC_GENRES', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Music Genres)');
   define('TEXT_DELETE_PRODUCTS', 'Delete this Music Genre and all items linked to it?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s items still linked to this Music Genre!');
-?>

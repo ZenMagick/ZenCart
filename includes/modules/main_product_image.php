@@ -39,5 +39,3 @@ echo
 'Large ' . $products_image_large . '<br><br>';
 */
 // to be built into a single variable string
-
-?>

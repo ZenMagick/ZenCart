@@ -91,4 +91,3 @@ if (!defined('IS_ADMIN_FLAG')) {
      return $this->buildBranch($this->root_category_id);
    }
  }
-?>

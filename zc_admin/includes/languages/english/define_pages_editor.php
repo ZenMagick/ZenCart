@@ -45,4 +45,3 @@ define('TEXT_INFO_SELECT_FILE', 'Select a file to edit ...');
 define('TEXT_INFO_EDITING', 'Editing file:');
 
 define('TEXT_INFO_CAUTION','Note: you should always edit the files located in your current template override directory, Example: /languages/' . $_SESSION['language'] . '/html_includes/' . $template_dir . '<br />Be sure to make backups after changing your files.');
-?>

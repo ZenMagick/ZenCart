@@ -24,4 +24,3 @@
     $title_link = false;
     require($template->get_template_dir('tpl_box_header.php',DIR_WS_TEMPLATE, $current_page_base,'common'). '/tpl_box_header.php');
   }
-?>

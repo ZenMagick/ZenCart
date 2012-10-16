@@ -34,4 +34,3 @@ define('TEXT_CVV_HELP2', 'American Express 4 Digit Card Verification Number<br /
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2amex.gif'));
 
 define('TEXT_CLOSE_CVV_WINDOW', 'Close Window [x]');
-?>

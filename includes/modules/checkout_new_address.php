@@ -252,4 +252,3 @@ if (isset($_POST['action']) && ($_POST['action'] == 'submit')) {
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_MODULE_END_CHECKOUT_NEW_ADDRESS');
-?>

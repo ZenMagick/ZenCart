@@ -34,4 +34,3 @@ if (!defined('IS_ADMIN_FLAG')) {
     define($configuration->fields['cfgKey'], $configuration->fields['cfgValue']);
     $configuration->movenext();
   }
-?>

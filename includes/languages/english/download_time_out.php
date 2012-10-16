@@ -29,4 +29,3 @@ define('TEXT_INFORMATION', 'We\'re sorry but your download has expired.<br /><br
   Or, if you believe that there is a problem with your order, please <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">Contact Us</a> <br /><br />
   Thank you!
   ');
-?>

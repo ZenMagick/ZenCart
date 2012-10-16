@@ -196,4 +196,3 @@ class category_tree extends base {
     return $this->box_categories_array;
   }
 }
-?>

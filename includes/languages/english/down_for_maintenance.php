@@ -27,4 +27,3 @@ define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'The site is currently down for 
 define('TEXT_MAINTENANCE_ON_AT_TIME', 'The Admin / Webmaster has enabled maintenance at : ');
 define('TEXT_MAINTENANCE_PERIOD', 'Maintenance period: ');
 define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'To verify the site status ... Click here:');
-?>

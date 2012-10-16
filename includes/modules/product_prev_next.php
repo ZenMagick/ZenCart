@@ -140,4 +140,3 @@ if (PRODUCT_INFO_PREVIOUS_NEXT != 0) {
   }
 }
 // eof: previous next
-?>

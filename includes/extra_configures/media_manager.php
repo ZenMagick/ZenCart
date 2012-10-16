@@ -11,4 +11,3 @@
  * The directory where media (mp3's etc) are stored - relative to catalog dir.
  */
   define('DIR_WS_MEDIA', 'media/');
-?>

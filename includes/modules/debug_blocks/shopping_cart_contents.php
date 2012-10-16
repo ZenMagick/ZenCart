@@ -19,4 +19,3 @@ if ($debug_on == '1') {
       echo 'Virtual Products: ' .  $_SESSION['cart']->in_cart_check('products_virtual','1') . '<br />';
       echo 'Free Shipping Products: ' .  $_SESSION['cart']->in_cart_check('product_is_always_free_shipping','1') . '<br />';
     }
-?>

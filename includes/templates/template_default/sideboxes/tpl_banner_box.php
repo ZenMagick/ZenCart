@@ -15,5 +15,3 @@
     $content .= zen_display_banner('static', $banner);
    $content .= '</div>';
   }
-
-?>

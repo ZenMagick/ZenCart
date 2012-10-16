@@ -14,4 +14,3 @@ if (!defined('IS_ADMIN_FLAG')) {
 }
 // close session (store variables)
 session_write_close();
-

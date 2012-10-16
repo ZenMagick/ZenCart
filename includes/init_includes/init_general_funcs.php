@@ -36,4 +36,3 @@ require(DIR_WS_FUNCTIONS . 'password_funcs.php');
  * User Defined Functions
  */
 include(DIR_WS_MODULES . 'extra_functions.php');
-?>

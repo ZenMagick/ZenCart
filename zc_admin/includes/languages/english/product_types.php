@@ -59,4 +59,3 @@ define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: I can not write to this director
 define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directory does not exist: %s');
 
 define('IMAGE_LAYOUT', 'Layout Settings');
-?>

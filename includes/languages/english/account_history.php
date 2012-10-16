@@ -22,4 +22,3 @@ define('TEXT_ORDER_COST', 'Order Cost: ');
 define('TEXT_VIEW_ORDER', 'View Order');
 
 define('TEXT_NO_PURCHASES', 'You have not yet made any purchases.');
-?>

@@ -69,4 +69,3 @@ if (isset($_GET['products_id'])) {
     $breadcrumb->add($productname->fields['products_name'], zen_href_link(zen_get_info_page($_GET['products_id']), 'cPath=' . $cPath . '&products_id=' . $_GET['products_id']));
   }
 }
-?>

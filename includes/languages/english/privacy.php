@@ -24,4 +24,3 @@ define('NAVBAR_TITLE', 'Privacy Notice');
 define('HEADING_TITLE', 'Privacy Notice');
 
 define('TEXT_INFORMATION', 'Your Privacy Notice should be on this page.');
-?>

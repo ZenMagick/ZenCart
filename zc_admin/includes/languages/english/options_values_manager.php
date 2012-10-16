@@ -119,4 +119,3 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Mismatched Option Name and Option Value selected');
 
   define('SUCCESS_OPTION_VALUES_DELETE', 'Successful: Deletion of: ');
-  

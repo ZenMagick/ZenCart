@@ -570,4 +570,4 @@ document.write('<?php echo '<a href="javascript:popupWindow(\\\'' . zen_href_lin
 <!-- footer_eof //-->
 </body>
 </html>
-<?php require(DIR_WS_INCLUDES . 'application_bottom.php'); ?>
+<?php require(DIR_WS_INCLUDES . 'application_bottom.php');

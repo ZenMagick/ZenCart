@@ -42,4 +42,3 @@
   define('TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Record Companies)');
   define('TEXT_DELETE_PRODUCTS', 'Delete this Record Company and all items linked to it?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s items still linked to this Record Company!');
-?>

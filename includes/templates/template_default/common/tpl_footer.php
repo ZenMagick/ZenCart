@@ -64,4 +64,3 @@ if (SHOW_FOOTER_IP == '1') {
 
 <?php
 } // flag_disable_footer
-?>

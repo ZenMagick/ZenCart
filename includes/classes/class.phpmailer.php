@@ -1512,4 +1512,3 @@ class PHPMailer
     $this->CustomHeader[] = explode(":", $custom_header, 2);
   }
 }
-

@@ -67,4 +67,3 @@ class template_func extends base {
     return $file_found;
   }
 }
-?>

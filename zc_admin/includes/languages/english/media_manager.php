@@ -51,6 +51,3 @@ define('TEXT_WARNING_FOLDER_UNWRITABLE', 'NOTE: media folder ' . DIR_FS_CATALOG_
 
 define('ERROR_UNKNOWN_DATA', 'ERROR: Unknown data supplied ... operation cancelled');
 define('TEXT_ADD','Add');
-
-
-?>

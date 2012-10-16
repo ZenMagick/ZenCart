@@ -430,4 +430,3 @@ if (!defined('IS_ADMIN_FLAG')) {
       return $requesturi;
     }
   }
-?>

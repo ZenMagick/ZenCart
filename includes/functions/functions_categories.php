@@ -603,5 +603,3 @@
     return $categories_imploded;
   }
 //// bof: manage master_categories_id vs cPath
-
-?>

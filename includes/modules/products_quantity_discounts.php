@@ -143,4 +143,3 @@ while (!$products_discounts_query->EOF) {
   $disc_cnt=0;
   $columnCount++;
 }
-?>

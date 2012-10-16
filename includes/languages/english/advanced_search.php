@@ -50,5 +50,3 @@ define('ENTRY_DATE_RANGE', 'Search by Date Added');
   define('ERROR_PRICE_TO_MUST_BE_NUM', 'Price To must be a number.');
   define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'Price To must be greater than or equal to Price From.');
   define('ERROR_INVALID_KEYWORDS', 'Invalid keywords.');
-
-?>

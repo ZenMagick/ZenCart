@@ -105,4 +105,4 @@ if (!isset($flag_disable_header) || !$flag_disable_header) {
 <?php } ?>
 <!--eof-header ezpage links-->
 </div>
-<?php } ?>
+<?php }

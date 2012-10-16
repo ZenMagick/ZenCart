@@ -90,4 +90,3 @@
   define('TEXT_NO_IPN_HISTORY', 'No IPN history available');
   define('TEXT_TXN_SIGNATURE', 'Transaction Signature');
   //end ADMIN text
-?>

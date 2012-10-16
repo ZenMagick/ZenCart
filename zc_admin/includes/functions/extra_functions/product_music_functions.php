@@ -54,4 +54,3 @@
 
     return $music_genre->fields['music_genre_url'];
   }
-?>

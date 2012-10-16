@@ -60,4 +60,3 @@ define('DB_DATABASE', '');
 // ie: /path/to/your/webspace/public_html/zen/cache   -- leave no trailing slash
 define('SQL_CACHE_METHOD', 'none');
 define('DIR_FS_SQL_CACHE', '/enter/your/path/to/public_html_or_htdocs/and/zencart/here/zen/cache');
-

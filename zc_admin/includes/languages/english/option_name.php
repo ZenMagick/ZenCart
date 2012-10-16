@@ -29,4 +29,3 @@
   define('TEXT_SELECTED_LANGUAGE','Selected Languge: ');
 
   define('SUCCESS_OPTION_SORT_ORDER','Successful Update of Option Name Sort Orders');
-?>

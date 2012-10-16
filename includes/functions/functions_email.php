@@ -674,4 +674,3 @@
     }
     return $email_html;
   }
-

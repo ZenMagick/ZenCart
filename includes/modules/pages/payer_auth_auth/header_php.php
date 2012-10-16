@@ -58,4 +58,4 @@ header("Cache-Control: max-age=1");  // stores for only 1 second, which prevents
 </center>
 </body>
 </html>
-<?php die(); ?>
+<?php die();

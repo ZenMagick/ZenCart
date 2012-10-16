@@ -33,4 +33,3 @@
   define('SUCCESS_PRODUCT_UPDATE_SORT_ALL','Successful Attribute Sort Order Update for ALL Products ');
   define('SUCCESS_OPTION_VALUES_SORT_ORDER','Successful Update of Option Values Sort Order: ');
   define('SUCCESS_CATEGORIES_UPDATE_SORT','Successful Attribute Sort Order Update for Categories ID# ');
-?>

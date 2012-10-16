@@ -31,4 +31,3 @@ if (!defined('IS_ADMIN_FLAG')) {
       echo zen_draw_pull_down_menu('alpha_filter_id', $letters_list, (isset($_GET['alpha_filter_id']) ? $_GET['alpha_filter_id'] : ''), 'onchange="this.form.submit()"');
     }
   }
-?>

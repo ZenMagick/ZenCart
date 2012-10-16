@@ -72,4 +72,3 @@ if (PRODUCT_FEATURED_LISTING_MULTIPLE_ADD_TO_CART > 0 and $show_submit == true a
     $show_bottom_submit_button = false;
   }
 }
-?>

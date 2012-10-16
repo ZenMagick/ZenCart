@@ -70,4 +70,3 @@ define('BOX_ENTRY_SALEMAKER_ACTIVE','Sales Active');
 define('LAST_10_DAYS', 'Counter History for last %s recorded days');
 define('SESSION', 'Session');
 define('TOTAL', 'Total');
-?>

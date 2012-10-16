@@ -21,4 +21,4 @@
 <?php echo ($i <= $n ? EZPAGES_SEPARATOR_FOOTER : '') . "\n"; ?>
   <a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a>
 <?php } // end FOR loop ?>
-<?php } ?>
+<?php }

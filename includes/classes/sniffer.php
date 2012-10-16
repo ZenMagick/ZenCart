@@ -72,4 +72,3 @@ class sniffer extends base {
     return false;
   }
 }
-?>

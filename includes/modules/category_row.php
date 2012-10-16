@@ -47,4 +47,3 @@ if ($num_categories > 0) {
     $categories->MoveNext();
   }
 }
-?>

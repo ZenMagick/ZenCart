@@ -41,4 +41,3 @@ if (is_array($list_box_contents) > 0 ) {
 <?php
   }
 }
-?> 

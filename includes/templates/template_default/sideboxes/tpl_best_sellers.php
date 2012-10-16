@@ -17,4 +17,3 @@
   $content .= '</ol>' . "\n";
   $content .= '</div>' . "\n";
   $content .= '</div>';
-?>

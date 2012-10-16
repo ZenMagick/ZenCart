@@ -118,4 +118,3 @@ if (!defined('IS_ADMIN_FLAG')) {
      return $records;  //return number of records processed whether successful or not
   }
   }
-?>

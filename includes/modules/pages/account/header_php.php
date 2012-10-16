@@ -70,4 +70,3 @@ while (!$orders->EOF) {
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_ACCOUNT');
-?>

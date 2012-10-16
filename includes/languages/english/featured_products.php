@@ -31,4 +31,3 @@ define('TEXT_PRODUCTS_MODEL','Model: ');
 define('TEXT_PRODUCTS_WEIGHT','Weight: ');
 define('TEXT_PRODUCTS_QUANTITY','In Stock: ');
 define('TEXT_OUT_OF_STOCK','Out of Stock');
-?>

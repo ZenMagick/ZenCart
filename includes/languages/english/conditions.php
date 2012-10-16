@@ -24,4 +24,3 @@ define('NAVBAR_TITLE', 'Conditions of Use');
 define('HEADING_TITLE', 'Conditions of Use');
 
 define('TEXT_INFORMATION', 'Your Conditions of Use information should be on this page.');
-?>

@@ -29,4 +29,3 @@ define('BOX_WHOS_ONLINE_MEMBER', 'member');
 define('BOX_WHOS_ONLINE_MEMBERS', 'members');
 
 define('BOX_WHOS_ONLINE_ONLINE', 'online.');
-?>

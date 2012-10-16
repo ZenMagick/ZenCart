@@ -88,4 +88,3 @@ switch ($_GET['action']) {
 }
 
 zen_redirect(zen_href_link(FILENAME_DEFAULT));
-?>

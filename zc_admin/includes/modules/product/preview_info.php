@@ -167,4 +167,3 @@ if (!defined('IS_ADMIN_FLAG')) {
     </table></form>
 <?php
     }
-?>

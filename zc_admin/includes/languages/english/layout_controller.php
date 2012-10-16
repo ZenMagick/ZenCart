@@ -81,5 +81,3 @@ define('TEXT_ON',' ON ');
 define('TEXT_OFF',' OFF ');
 define('TEXT_LEFT',' LEFT ');
 define('TEXT_RIGHT',' RIGHT ');
-
-?>

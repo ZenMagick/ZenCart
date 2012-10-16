@@ -59,4 +59,3 @@ if (!isset($_SESSION['updateExpirations']) || $_SESSION['updateExpirations'] !==
 
   $_SESSION['updateExpirations'] = true;
 }
-?>

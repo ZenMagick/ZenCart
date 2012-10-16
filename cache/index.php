@@ -24,4 +24,3 @@
     session_write_close();
     header('Location: ' . 'http://' . $_SERVER['HTTP_HOST']);
     exit();
-?>

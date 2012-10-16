@@ -49,4 +49,3 @@ switch (true) {
   $order_by = " order by p.products_sort_order";
   break;
 }
-?>

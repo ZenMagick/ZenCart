@@ -81,4 +81,3 @@
  * include the extra language definitions
  */
   include(DIR_WS_MODULES . 'extra_definitions.php');
-?>

@@ -10,4 +10,3 @@ if (!defined('IS_ADMIN_FLAG')) {
   die('Illegal Access');
 }
   define('DIR_FS_CATALOG_MEDIA', DIR_FS_CATALOG . 'media/');
-?>

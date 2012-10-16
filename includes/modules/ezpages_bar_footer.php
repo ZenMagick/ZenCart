@@ -61,4 +61,3 @@ if (EZPAGES_STATUS_FOOTER == '1' or (EZPAGES_STATUS_FOOTER == '2' and (strstr(EX
 } // test for display
 
 $zco_notifier->notify('NOTIFY_END_EZPAGES_FOOTERBAR');
-?>

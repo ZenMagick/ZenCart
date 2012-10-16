@@ -48,4 +48,3 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
 
 $breadcrumb->add(NAVBAR_TITLE_1, zen_href_link(FILENAME_ACCOUNT, '', 'SSL'));
 $breadcrumb->add(NAVBAR_TITLE_2);
-?>

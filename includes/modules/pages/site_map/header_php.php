@@ -25,4 +25,3 @@ require DIR_WS_CLASSES . 'site_map.php';
 $zen_SiteMapTree = new zen_SiteMapTree;
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_SITE_MAP');
-?>

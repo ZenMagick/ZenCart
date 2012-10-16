@@ -102,4 +102,3 @@ define('IMAGE_ICON_BANNER_ON_SSL_OFF','Show on Secure Pages - Disabled');
 
 define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Success: The status of the banner to open in a new window has been updated.');
 define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Success: The status of the banner to show on SSL has been updated.');
-?>

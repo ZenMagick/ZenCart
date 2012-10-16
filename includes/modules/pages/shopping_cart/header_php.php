@@ -171,4 +171,3 @@ for ($i=0, $n=sizeof($products); $i<$n; $i++) {
 
 // This should be last line of the script:
 $zco_notifier->notify('NOTIFY_HEADER_END_SHOPPING_CART');
-?>

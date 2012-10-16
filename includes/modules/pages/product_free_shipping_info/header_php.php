@@ -20,4 +20,3 @@
 // $Id: header_php.php 2578 2005-12-15 19:31:34Z drbyte $
 //
   require(DIR_WS_MODULES . zen_get_module_directory('require_languages.php'));
-?>

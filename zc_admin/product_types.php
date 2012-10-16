@@ -448,4 +448,4 @@ if ($_GET['action'] == 'layout' || $_GET['action'] == 'layout_edit') {
 <br>
 </body>
 </html>
-<?php require(DIR_WS_INCLUDES . 'application_bottom.php'); ?>
+<?php require(DIR_WS_INCLUDES . 'application_bottom.php');

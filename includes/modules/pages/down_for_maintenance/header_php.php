@@ -24,6 +24,4 @@ if (DOWN_FOR_MAINTENANCE == 'true') {
   define('TEXT_DATE_TIME', $maintenance_on_at_time->fields['last_modified']);
 }
 
-header("HTTP/1.1 503 Service Unavailable"); 
-
-?>
+header("HTTP/1.1 503 Service Unavailable");

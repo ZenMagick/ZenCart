@@ -29,4 +29,3 @@ $reviews_query_raw = $db->bindVars($reviews_query_raw, ':languageID', $_SESSION[
 $reviews_split = new splitPageResults($reviews_query_raw, MAX_DISPLAY_NEW_REVIEWS);
 
 $breadcrumb->add(NAVBAR_TITLE);
-?>

@@ -10,4 +10,3 @@ if (!defined('IS_ADMIN_FLAG')) {
   die('Illegal Access');
 }
 // should not need this file
-?>

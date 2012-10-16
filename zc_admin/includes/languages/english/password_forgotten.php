@@ -20,4 +20,3 @@ define('MESSAGE_PASSWORD_SENT', 'A new password has been sent to the email addre
 
 define('TEXT_EMAIL_SUBJECT_PWD_RESET', 'Your Requested change');
 define('TEXT_EMAIL_MESSAGE_PWD_RESET', 'A new password was requested from %s.' . "\n\n" . 'Your new temporary password is:' . "\n\n   %s\n\nYou will be asked to choose a new password before logging in.\n\nThis temporary password expires in 24 hours.\n\n\n");
-

@@ -139,5 +139,4 @@ require(DIR_WS_MODULES . zen_get_module_directory('meta_tags.php'));
 
 ?>
 </head>
-<?php // NOTE: Blank line following is intended: ?>
-
+<?php // NOTE: Blank line following is intended:

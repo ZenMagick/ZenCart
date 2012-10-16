@@ -39,4 +39,3 @@ define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
 
 define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this media type?');
 define('TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Media Types)');
-?>

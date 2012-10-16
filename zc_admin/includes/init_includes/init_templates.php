@@ -26,4 +26,3 @@ if (!isset($template_dir) || $template_dir == '') {
  * send the content charset "now" so that all content is impacted by it - this is important for non-english sites
  */
   header("Content-Type: text/html; charset=" . CHARSET);
-

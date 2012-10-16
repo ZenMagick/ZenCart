@@ -94,4 +94,3 @@ class products extends base {
   }
 
 }
-?>

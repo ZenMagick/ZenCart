@@ -101,4 +101,3 @@ if ($downloads_check_query->RecordCount() > 0 and $downloads->RecordCount() < 1)
  <fieldset><?php echo DOWNLOADS_CONTROLLER_ON_HOLD_MSG ?></fieldset>
 <?php
 }
-?>

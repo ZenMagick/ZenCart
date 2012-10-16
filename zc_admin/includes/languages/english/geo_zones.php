@@ -51,4 +51,3 @@ define('TEXT_ALL_COUNTRIES', 'All Countries');
 
 define('TEXT_INFO_NUMBER_TAX_RATES','Number of Tax Rates:');
 define('ERROR_TAX_RATE_EXISTS','WARNING: Tax Rate(s) are defined for this zone. Please delete the Tax Rate(s) before removing this zone');
-?>

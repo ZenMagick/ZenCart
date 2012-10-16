@@ -17,4 +17,3 @@
 
   $content .= '</ul>' . "\n" ;
   $content .= '</div>';
-?>

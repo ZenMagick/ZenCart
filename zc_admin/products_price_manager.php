@@ -1025,4 +1025,4 @@ echo zen_draw_hidden_field('master_categories_id', $pInfo->master_categories_id)
 <!-- footer_eof //-->
 </body>
 </html>
-<?php require(DIR_WS_INCLUDES . 'application_bottom.php'); ?>
+<?php require(DIR_WS_INCLUDES . 'application_bottom.php');
