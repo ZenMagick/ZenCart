@@ -1,0 +1,7 @@
+{
+    "name": "zenmagick/zencart",
+    "description": "Heavily patched ZenCart to ease integration into external systems.",
+    "version": "1.5.1",
+    "license": "GPL-2.0",
+    "minimum-stability": "dev"
+}
