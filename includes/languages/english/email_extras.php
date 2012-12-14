@@ -22,7 +22,6 @@
   define('OFFICE_IP_ADDRESS','<strong>IP Address:</strong>');
   define('OFFICE_HOST_ADDRESS','<strong>Host Address:</strong>');
   define('OFFICE_DATE_TIME','<strong>Date and Time:</strong>');
-  if (!defined('OFFICE_IP_TO_HOST_ADDRESS')) define('OFFICE_IP_TO_HOST_ADDRESS', 'OFF');
 
 // email disclaimer
   define('EMAIL_DISCLAIMER', 'This email address was given to us by you or by one of our customers. If you feel that you have received this email in error, please send an email to %s ');
