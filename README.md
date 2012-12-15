@@ -32,6 +32,7 @@ Removed
   * nddbc.html
   * page_not_found.php
   * robots_example.txt
+  * phpbb integration
 
 Renamed
 ======

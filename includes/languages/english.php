@@ -196,10 +196,6 @@
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Sorry, my system does not understand your email address. Please try again.');
   define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Our system already has a record of that email address - please try logging in with that email address. If you do not use that address any longer you can correct it in the My Account area.');
   define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
-  define('ENTRY_NICK', 'Forum Nick Name:');
-  define('ENTRY_NICK_TEXT', '*'); // note to display beside nickname input field
-  define('ENTRY_NICK_DUPLICATE_ERROR', 'That Nick Name is already being used. Please try another.');
-  define('ENTRY_NICK_LENGTH_ERROR', 'Please try again. Your Nick Name must contain at least ' . ENTRY_NICK_MIN_LENGTH . ' characters.');
   define('ENTRY_STREET_ADDRESS', 'Street Address:');
   define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' characters.');
   define('ENTRY_STREET_ADDRESS_TEXT', '*');

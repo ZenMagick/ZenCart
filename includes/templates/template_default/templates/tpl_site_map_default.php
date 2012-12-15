@@ -58,9 +58,6 @@
 <?php if (DEFINE_CONTACT_US_STATUS <= '1') { ?>
             <li><?php echo '<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">' . BOX_INFORMATION_CONTACT . '</a>'; ?></li>
 <?php } ?>
-<?php if ( (isset($phpBB->phpBB['db_installed_config']) && $phpBB->phpBB['db_installed_config']) && (isset($phpBB->phpBB['files_installed']) && $phpBB->phpBB['files_installed'])  && (PHPBB_LINKS_ENABLED=='true')) { ?>
-            <li><?php echo '<a href="' . zen_href_link($phpBB->phpBB['phpbb_url'] . FILENAME_BB_INDEX, '', 'NONSSL', false, '', true) . '" target="_blank">' . BOX_BBINDEX . '</a>'; ?></li>
-<?php } ?>
 <?php if (MODULE_ORDER_TOTAL_GV_STATUS == 'true') { ?>
             <li><?php echo '<a href="' . zen_href_link(FILENAME_GV_FAQ) . '">' . BOX_INFORMATION_GV . '</a>'; ?></li>
 <?php } ?>

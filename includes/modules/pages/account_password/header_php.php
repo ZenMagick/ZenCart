@@ -46,7 +46,7 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
     if (zen_validate_password($password_current, $check_customer->fields['customers_password'])) {
       $nickname = $check_customer->fields['customers_nick'];
       $sql = "UPDATE " . TABLE_CUSTOMERS . "
-              SET customers_password = :password 
+              SET customers_password = :password
               WHERE customers_id = :customersID";
 
       $sql = $db->bindVars($sql, ':customersID',$_SESSION['customer_id'], 'integer');
@@ -59,12 +59,6 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
 
       $sql = $db->bindVars($sql, ':customersID',$_SESSION['customer_id'], 'integer');
       $db->Execute($sql);
-
-        if ($phpBB->phpBB['installed'] == true) {
-          if (zen_not_null($nickname) && $nickname != '') {
-            $phpBB->phpbb_change_password($nickname, $password_new);
-          }
-        }
 
       $messageStack->add_session('account', SUCCESS_PASSWORD_UPDATED, 'success');
 

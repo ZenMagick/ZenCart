@@ -79,12 +79,6 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
   if ($check_email->fields['total'] > 0) {
     $error = true;
     $messageStack->add('account_edit', ENTRY_EMAIL_ADDRESS_ERROR_EXISTS);
-
-    // check phpBB for duplicate email address
-    if ($phpBB->phpbb_check_for_duplicate_email(zen_db_input($email_address)) == 'already_exists' ) {
-      $error = true;
-      $messageStack->add('account_edit', 'phpBB-'.ENTRY_EMAIL_ADDRESS_ERROR_EXISTS);
-    }
   }
 
 
@@ -95,10 +89,6 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
   }
 
   if ($error == false) {
-    //update phpBB with new email address
-    $old_addr_check=$db->Execute("select customers_email_address from ".TABLE_CUSTOMERS." where customers_id='".(int)$_SESSION['customer_id']."'");
-    $phpBB->phpbb_change_email(zen_db_input($old_addr_check->fields['customers_email_address']),zen_db_input($email_address));
-
     $sql_data_array = array(array('fieldName'=>'customers_firstname', 'value'=>$firstname, 'type'=>'string'),
                             array('fieldName'=>'customers_lastname', 'value'=>$lastname, 'type'=>'string'),
                             array('fieldName'=>'customers_email_address', 'value'=>$email_address, 'type'=>'string'),

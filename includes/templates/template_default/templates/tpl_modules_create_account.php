@@ -152,16 +152,6 @@
 <?php echo zen_draw_input_field('email_address', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_email_address', '40') . ' id="email-address"') . (zen_not_null(ENTRY_EMAIL_ADDRESS_TEXT) ? '<span class="alert">' . ENTRY_EMAIL_ADDRESS_TEXT . '</span>': ''); ?>
 <br class="clearBoth" />
 
-<?php
-  if ($phpBB->phpBB['installed'] == true) {
-?>
-<label class="inputLabel" for="nickname"><?php echo ENTRY_NICK; ?></label>
-<?php echo zen_draw_input_field('nick','','id="nickname"') . (zen_not_null(ENTRY_NICK_TEXT) ? '<span class="alert">' . ENTRY_NICK_TEXT . '</span>': ''); ?>
-<br class="clearBoth" />
-<?php
-  }
-?>
-
 <label class="inputLabel" for="password-new"><?php echo ENTRY_PASSWORD; ?></label>
 <?php echo zen_draw_password_field('password', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_password', '20') . ' id="password-new"') . (zen_not_null(ENTRY_PASSWORD_TEXT) ? '<span class="alert">' . ENTRY_PASSWORD_TEXT . '</span>': ''); ?>
 <br class="clearBoth" />

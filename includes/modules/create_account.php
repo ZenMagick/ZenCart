@@ -141,28 +141,6 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
     }
   }
 
-  if ($phpBB && $phpBB->phpBB['installed'] == true) {
-    if (strlen($nick) < ENTRY_NICK_MIN_LENGTH)  {
-      $error = true;
-      $messageStack->add('create_account', ENTRY_NICK_LENGTH_ERROR);
-    } else {
-      // check Zen Cart for duplicate nickname
-      $sql = "select * from " . TABLE_CUSTOMERS  . "
-                           where customers_nick = :nick:";
-      $check_nick_query = $db->bindVars($sql, ':nick:', $nick, 'string');
-      $check_nick = $db->Execute($check_nick_query);
-      if ($check_nick->RecordCount() > 0 ) {
-        $error = true;
-        $messageStack->add('create_account', ENTRY_NICK_DUPLICATE_ERROR);
-      }
-      // check phpBB for duplicate nickname
-      if ($phpBB->phpbb_check_for_duplicate_nick($nick) == 'already_exists' ) {
-        $error = true;
-        $messageStack->add('create_account', ENTRY_NICK_DUPLICATE_ERROR . ' (phpBB)');
-      }
-    }
-  }
-
   if (strlen($street_address) < ENTRY_STREET_ADDRESS_MIN_LENGTH) {
     $error = true;
     $messageStack->add('create_account', ENTRY_STREET_ADDRESS_ERROR);
@@ -317,12 +295,6 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
               values ('" . (int)$_SESSION['customer_id'] . "', '1', now(), now())";
 
     $db->Execute($sql);
-
-    // phpBB create account
-    if ($phpBB->phpBB['installed'] == true) {
-      $phpBB->phpbb_create_account($nick, $password, $email_address);
-    }
-    // End phppBB create account
 
     if (SESSION_RECREATE == 'True') {
       zen_session_recreate();
