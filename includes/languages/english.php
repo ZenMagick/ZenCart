@@ -573,7 +573,7 @@
   define('TABLE_HEADING_DOWNLOAD_COUNT', 'Remaining');
   define('HEADING_DOWNLOAD', 'To download your files click the download button and choose "Save to Disk" from the popup menu.');
   define('TABLE_HEADING_DOWNLOAD_FILENAME','Filename');
-  define('TABLE_HEADING_PRODUCT_NAME','Item Name');
+  define('TABLE_HEADING_PRODUCT_NAME','Product Name');
   define('TABLE_HEADING_BYTE_SIZE','File Size');
   define('TEXT_DOWNLOADS_UNLIMITED', 'Unlimited');
   define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
