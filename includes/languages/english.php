@@ -16,7 +16,6 @@
   define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  @setlocale(LC_TIME, 'en_US');
   define('DATE_FORMAT_SHORT', '%m/%d/%Y');  // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
   define('DATE_FORMAT', 'm/d/Y'); // this is used for date()
@@ -42,9 +41,6 @@
 // Global entries for the <html> tag
   define('HTML_PARAMS','dir="ltr" lang="en"');
 
-// charset for web pages and emails
-  define('CHARSET', 'utf-8');
-
 // footer text in includes/footer.php
   define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
 
@@ -64,9 +60,6 @@
   define('FEMALE', 'Ms.');
   define('MALE_ADDRESS', 'Mr.');
   define('FEMALE_ADDRESS', 'Ms.');
-
-// text for date of birth example
-  define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 //text for sidebox heading links
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[more]');
@@ -587,9 +580,6 @@
   define('TABLE_HEADING_TOTAL', 'Total');
 
 // create account - login shared
-  define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Privacy Statement');
-  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">here</span></a>.');
-  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'I have read and agreed to your privacy statement.');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Address Details');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Additional Contact Details');
   define('TABLE_HEADING_DATE_OF_BIRTH', 'Verify Your Age');
