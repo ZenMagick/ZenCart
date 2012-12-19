@@ -31,7 +31,7 @@
   }
 
   // ensure navigation snapshot in case must-be-logged-in-for-price is enabled
-  if (!$_SESSION['customer_id']) {
+  if (!isset($_SESSION['customer_id']) || !$_SESSION['customer_id']) {
     $_SESSION['navigation']->set_snapshot();
   }
 
