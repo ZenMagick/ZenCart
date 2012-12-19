@@ -70,6 +70,9 @@ if ($display_specials_price == false) {
 }
 
 switch (true) {
+  case (empty($products_discounts_query->fields)):
+  $show_qty = '1';
+  break;
   case ($products_discounts_query->fields['discount_qty'] <= 2):
   $show_qty = '1';
   break;
