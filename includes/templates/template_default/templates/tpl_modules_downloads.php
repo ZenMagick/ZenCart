@@ -78,9 +78,6 @@
   </table>
 
 <?php
-// old way
-//    if (!strstr($PHP_SELF, FILENAME_ACCOUNT_HISTORY_INFO)) {
-// new way
       if (!($_GET['main_page']==FILENAME_ACCOUNT_HISTORY_INFO)) {
 ?>
 <p><?php printf(FOOTER_DOWNLOAD, '<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">' . HEADER_TITLE_MY_ACCOUNT . '</a>'); ?></p>
