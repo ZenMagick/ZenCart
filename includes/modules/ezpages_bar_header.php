@@ -59,5 +59,5 @@ if (EZPAGES_STATUS_HEADER == '1' or (EZPAGES_STATUS_HEADER == '2' and (strstr(EX
     $var_linksList = $page_query_list_header;
   }
 } // display
-
+if (!isset($var_linksList)) $var_linksList = array();
 $zco_notifier->notify('NOTIFY_END_EZPAGES_HEADERBAR');
