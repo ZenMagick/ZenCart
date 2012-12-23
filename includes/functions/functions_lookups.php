@@ -439,7 +439,7 @@
     $check_valid = true;
 
 // display only cannot be selected
-    if ($check_attributes->fields['attributes_display_only'] == '1') {
+    if (isset($check_attributes->fields['attributes_display_only']) && $check_attributes->fields['attributes_display_only'] == '1') {
       $check_valid = false;
     }
 
@@ -447,7 +447,8 @@
     if (preg_match('/^txt_/', $option)) {
       $check_attributes = $db->Execute("select attributes_display_only, attributes_required from " . TABLE_PRODUCTS_ATTRIBUTES . " where products_id='" . (int)$product_id . "' and options_id='" . (int)preg_replace('/txt_/', '', $option) . "' and options_values_id='0'");
 // text cannot be blank
-      if ($check_attributes->fields['attributes_required'] == '1' && (empty($value) && !is_numeric($value))) {
+      if ((isset($check_attributes->fields['attributes_required']) && $check_attributes->fields['attributes_required'] == '1')
+          && (empty($value) && !is_numeric($value))) {
         $check_valid = false;
       }
     }
