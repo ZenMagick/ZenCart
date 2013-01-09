@@ -19,7 +19,7 @@ $new_products_query = '';
 
 $display_limit = zen_get_new_date_range();
 
-if ( (($manufacturers_id > 0 && $_GET['filter_id'] == 0) || $_GET['music_genre_id'] > 0 || $_GET['record_company_id'] > 0) || (!isset($new_products_category_id) || $new_products_category_id == '0') ) {
+if ( ($manufacturers_id > 0 && $_GET['filter_id'] == 0) || (!isset($new_products_category_id) || $new_products_category_id == '0') ) {
   $new_products_query = "select distinct p.products_id, p.products_image, p.products_tax_class_id, pd.products_name,
                                 p.products_date_added, p.products_price, p.products_type, p.master_categories_id
                            from " . TABLE_PRODUCTS . " p, " . TABLE_PRODUCTS_DESCRIPTION . " pd
