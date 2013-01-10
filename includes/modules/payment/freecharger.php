@@ -24,7 +24,7 @@
         $this->order_status = MODULE_PAYMENT_FREECHARGER_ORDER_STATUS_ID;
         $payment='freecharger';
       } else {
-        if ($payment=='freecharger') {
+        if (isset($payment) && $payment=='freecharger') {
           $payment='';
         }
       }
