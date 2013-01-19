@@ -38,7 +38,7 @@
           $order->info['shipping_cost'] = 0;
         }
       }
-      $module = substr($_SESSION['shipping']['id'], 0, strpos($_SESSION['shipping']['id'], '_'));
+      $module = is_array($_SESSION['shipping']) ? substr($_SESSION['shipping']['id'], 0, strpos($_SESSION['shipping']['id'], '_')) : $_SESSION['shipping'];
       if (zen_not_null($order->info['shipping_method'])) {
         if ($GLOBALS[$module]->tax_class > 0) {
           if (!isset($GLOBALS[$module]->tax_basis)) {
