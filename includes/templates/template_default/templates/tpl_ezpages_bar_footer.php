@@ -18,7 +18,6 @@
 ?>
 <?php if (isset($vars_linksList) && sizeof($var_linksList) >= 1) { ?>
 <?php for ($i=1, $n=sizeof($var_linksList); $i<=$n; $i++) {  ?>
-<?php echo ($i <= $n ? EZPAGES_SEPARATOR_FOOTER : '') . "\n"; ?>
-  <a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a>
+  <li><a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a></li>
 <?php } // end FOR loop ?>
 <?php }

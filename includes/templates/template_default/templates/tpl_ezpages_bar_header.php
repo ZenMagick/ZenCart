@@ -17,9 +17,11 @@
   include(DIR_WS_MODULES . zen_get_module_directory('ezpages_bar_header.php'));
 ?>
 <?php if (sizeof($var_linksList) >= 1) { ?>
-<div id="navEZPagesTop">
+<div id="navEZPagesTop" class="subnav">
+<ul class="nav nav-tabs">
 <?php for ($i=1, $n=sizeof($var_linksList); $i<=$n; $i++) {  ?>
-  <a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a><?php echo ($i < $n ? EZPAGES_SEPARATOR_HEADER : '') . "\n"; ?>
+  <li><a href="<?php echo $var_linksList[$i]['link']; ?>"><?php echo $var_linksList[$i]['name']; ?></a></li>
 <?php } // end FOR loop ?>
+</ul>
 </div>
 <?php }
