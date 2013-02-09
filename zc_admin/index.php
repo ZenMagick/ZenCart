@@ -26,7 +26,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo CHARSET; ?>">
 <title><?php echo TITLE; ?></title>
 <meta name="robot" content="noindex, nofollow" />
-<script language="JavaScript" src="includes/menu.js" type="text/JavaScript"></script>
+<script src="includes/menu.js" type="text/JavaScript"></script>
 <link href="includes/stylesheet.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="includes/cssjsmenuhover.css" media="all" id="hoverJS" />
 <script type="text/javascript">

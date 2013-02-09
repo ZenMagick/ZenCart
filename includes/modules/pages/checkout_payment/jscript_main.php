@@ -9,7 +9,7 @@
  * @version $Id: jscript_main.php 5207 2006-12-11 19:06:28Z drbyte $
  */
 ?>
-<script language="javascript" type="text/javascript"><!--
+<script type="text/javascript"><!--
 var selected;
 var submitter = null;
 function popupWindow(url) {
