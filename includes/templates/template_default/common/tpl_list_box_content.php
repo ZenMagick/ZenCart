@@ -16,7 +16,7 @@
   $cell_title = (!isset($cell_title) || empty($cell_title)) ? 'list' : $cell_title;
 
 ?>
-<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<table width="100%" border="1">
 <?php
   for($row=0; $row<sizeof($list_box_contents); $row++) {
     $params = "";

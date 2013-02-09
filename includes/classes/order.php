@@ -971,7 +971,7 @@ class order extends base {
     $this->products_ordered .
     EMAIL_SEPARATOR . "\n";
     $html_msg['PRODUCTS_TITLE'] = EMAIL_TEXT_PRODUCTS;
-    $html_msg['PRODUCTS_DETAIL']='<table class="product-details" border="0" width="100%" cellspacing="0" cellpadding="2">' . $this->products_ordered_html . '</table>';
+    $html_msg['PRODUCTS_DETAIL']='<table class="product-details" border="0" width="100%" cellpadding="2">' . $this->products_ordered_html . '</table>';
 
     //order totals area
     $html_ot = '<tr><td class="order-totals-text" align="right" width="100%">' . '&nbsp;' . '</td> ' . "\n" . '<td class="order-totals-num" align="right" nowrap="nowrap">' . '---------' .'</td> </tr>' . "\n";
@@ -979,7 +979,7 @@ class order extends base {
       $email_order .= strip_tags($order_totals[$i]['title']) . ' ' . strip_tags($order_totals[$i]['text']) . "\n";
       $html_ot .= '<tr><td class="order-totals-text" align="right" width="100%">' . $order_totals[$i]['title'] . '</td> ' . "\n" . '<td class="order-totals-num" align="right" nowrap="nowrap">' .($order_totals[$i]['text']) .'</td> </tr>' . "\n";
     }
-    $html_msg['ORDER_TOTALS'] = '<table border="0" width="100%" cellspacing="0" cellpadding="2"> ' . $html_ot . ' </table>';
+    $html_msg['ORDER_TOTALS'] = '<table border="0" width="100%" cellpadding="2"> ' . $html_ot . ' </table>';
 
     //addresses area: Delivery
     $html_msg['HEADING_ADDRESS_INFORMATION']= HEADING_ADDRESS_INFORMATION;

@@ -31,7 +31,7 @@
       }
       $product_ids = substr($product_ids, 0, -1);
       $rows=0;
-      $customer_orders_string = '<table border="0" width="100%" cellspacing="0" cellpadding="1">';
+      $customer_orders_string = '<table border="0" width="100%" cellpadding="1">';
       $products_history_query = "select products_id, products_name
                          from " . TABLE_PRODUCTS_DESCRIPTION . "
                          where products_id in (" . $product_ids . ")
