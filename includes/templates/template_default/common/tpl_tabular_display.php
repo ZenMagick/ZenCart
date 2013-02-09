@@ -16,7 +16,7 @@
   $cell_title = (!isset($cell_title) || empty($cell_title)) ? 'list' : $cell_title;
 
 ?>
-<table width="100%" border="0" id="<?php echo 'cat' . $cPath . 'Table'; ?>" class="tabTable">
+<table width="100%" id="<?php echo 'cat' . $cPath . 'Table'; ?>" class="tabTable">
 <?php
   for($row=0; $row<sizeof($list_box_contents); $row++) {
     $r_params = "";

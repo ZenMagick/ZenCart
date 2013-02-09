@@ -12,7 +12,7 @@
 <body id="popupAtrribsQuantityPricesHelp">
 <table width="98%" border="2" cellpadding="2" cellspacing ="2" align="center" class="popupattributeqty">
   <tr>
-    <td><table width="100%" border="0" cellpadding="2" cellspacing ="2" class="popupattributeqty">
+    <td><table width="100%" cellpadding="2" cellspacing ="2" class="popupattributeqty">
       <tr>
         <td class="main" align="right"><?php echo '<a href="javascript:window.close()">' . TEXT_CURRENT_CLOSE_WINDOW . '</a>'; ?></td>
       </tr>

@@ -23,7 +23,7 @@
   ?>
 <p class="forward"><?php echo '<a href="' . zen_href_link(FILENAME_ACCOUNT_HISTORY, '', 'SSL') . '">' . OVERVIEW_SHOW_ALL_ORDERS . '</a>'; ?></p>
 <br class="clearBoth" />
-<table width="100%" border="0" id="prevOrders">
+<table width="100%" id="prevOrders">
 <caption><h2><?php echo OVERVIEW_PREVIOUS_ORDERS; ?></h2></caption>
     <tr class="tableHeading">
     <th scope="col"><?php echo TABLE_HEADING_DATE; ?></th>
