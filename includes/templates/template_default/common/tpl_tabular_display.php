@@ -29,7 +29,6 @@
       $c_params = "";
       $cell_type = ($row==0) ? 'th' : 'td';
       if (isset($list_box_contents[$row][$col]['params'])) $c_params .= ' ' . $list_box_contents[$row][$col]['params'];
-      if (isset($list_box_contents[$row][$col]['align']) && $list_box_contents[$row][$col]['align'] != '') $c_params .= ' align="' . $list_box_contents[$row][$col]['align'] . '"';
       if ($cell_type=='th') $c_params .= ' scope="' . $cell_scope . '" id="' . $cell_title . 'Cell' . $row . '-' . $col.'"';
       if (isset($list_box_contents[$row][$col]['text'])) {
 ?>
@@ -41,5 +40,5 @@
   </tr>
 <?php
   }
-?> 
+?>
 </table>

@@ -19,42 +19,34 @@ $how_many = 0;
 $list_box_contents[0] = array('params' => 'class="productListing-rowheading"');
 
 $zc_col_count_description = 0;
-$lc_align = '';
 for ($col=0, $n=sizeof($column_list); $col<$n; $col++) {
   switch ($column_list[$col]) {
     case 'PRODUCT_LIST_MODEL':
     $lc_text = TABLE_HEADING_MODEL;
-    $lc_align = '';
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_NAME':
     $lc_text = TABLE_HEADING_PRODUCTS;
-    $lc_align = '';
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_MANUFACTURER':
     $lc_text = TABLE_HEADING_MANUFACTURER;
-    $lc_align = '';
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_PRICE':
     $lc_text = TABLE_HEADING_PRICE;
-    $lc_align = 'right' . (PRODUCTS_LIST_PRICE_WIDTH > 0 ? '" width="' . PRODUCTS_LIST_PRICE_WIDTH : '');
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_QUANTITY':
     $lc_text = TABLE_HEADING_QUANTITY;
-    $lc_align = 'right';
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_WEIGHT':
     $lc_text = TABLE_HEADING_WEIGHT;
-    $lc_align = 'right';
     $zc_col_count_description++;
     break;
     case 'PRODUCT_LIST_IMAGE':
     $lc_text = TABLE_HEADING_IMAGE;
-    $lc_align = 'center';
     $zc_col_count_description++;
     break;
   }
@@ -65,7 +57,7 @@ for ($col=0, $n=sizeof($column_list); $col<$n; $col++) {
 
 
 
-  $list_box_contents[0][$col] = array('align' => $lc_align,
+  $list_box_contents[0][$col] = array(
                                       'params' => 'class="productListing-heading"',
                                       'text' => $lc_text );
 }
@@ -86,23 +78,18 @@ if ($listing_split->number_of_rows > 0) {
     $cur_row = sizeof($list_box_contents) - 1;
 
     for ($col=0, $n=sizeof($column_list); $col<$n; $col++) {
-      $lc_align = '';
       switch ($column_list[$col]) {
         case 'PRODUCT_LIST_MODEL':
-        $lc_align = '';
         $lc_text = $listing->fields['products_model'];
         break;
         case 'PRODUCT_LIST_NAME':
-        $lc_align = '';
         $lc_text = '<h3 class="itemTitle"><a href="' . zen_href_link(zen_get_info_page($listing->fields['products_id']), 'cPath=' . (((isset($_GET['manufacturers_id']) && $_GET['manufacturers_id'] > 0) and (isset($_GET['filter_id']) && $_GET['filter_id'] > 0)) ?  zen_get_generated_category_path_rev($_GET['filter_id']) : ((isset($_GET['cPath']) && $_GET['cPath'] > 0) ? zen_get_generated_category_path_rev($_GET['cPath']) : zen_get_generated_category_path_rev($listing->fields['master_categories_id']))) . '&products_id=' . $listing->fields['products_id']) . '">' . $listing->fields['products_name'] . '</a></h3><div class="listingDescription">' . zen_trunc_string(zen_clean_html(stripslashes(zen_get_products_description($listing->fields['products_id'], $_SESSION['languages_id']))), PRODUCT_LIST_DESCRIPTION) . '</div>';
         break;
         case 'PRODUCT_LIST_MANUFACTURER':
-        $lc_align = '';
         $lc_text = '<a href="' . zen_href_link(FILENAME_DEFAULT, 'manufacturers_id=' . $listing->fields['manufacturers_id']) . '">' . $listing->fields['manufacturers_name'] . '</a>';
         break;
         case 'PRODUCT_LIST_PRICE':
         $lc_price = zen_get_products_display_price($listing->fields['products_id']) . '<br />';
-        $lc_align = 'right';
         $lc_text =  $lc_price;
 
         // more info in place of buy now
@@ -146,15 +133,12 @@ if ($listing_split->number_of_rows > 0) {
 
         break;
         case 'PRODUCT_LIST_QUANTITY':
-        $lc_align = 'right';
         $lc_text = $listing->fields['products_quantity'];
         break;
         case 'PRODUCT_LIST_WEIGHT':
-        $lc_align = 'right';
         $lc_text = $listing->fields['products_weight'];
         break;
         case 'PRODUCT_LIST_IMAGE':
-        $lc_align = 'center';
         if ($listing->fields['products_image'] == '' and PRODUCTS_IMAGE_NO_IMAGE_STATUS == 0) {
           $lc_text = '';
         } else {
@@ -167,7 +151,7 @@ if ($listing_split->number_of_rows > 0) {
         break;
       }
 
-      $list_box_contents[$rows][$col] = array('align' => $lc_align,
+      $list_box_contents[$rows][$col] = array(
                                               'params' => 'class="productListing-data"',
                                               'text'  => $lc_text);
     }
