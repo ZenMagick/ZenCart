@@ -181,9 +181,6 @@ define('BOX_TOOLS_DEFINE_PRIVACY','Privacy');
 define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Shipping & Returns');
 define('BOX_TOOLS_DEFINE_CONDITIONS','Conditions of Use');
 define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Checkout Success');
-define('BOX_TOOLS_DEFINE_PAGE_2','Page 2');
-define('BOX_TOOLS_DEFINE_PAGE_3','Page 3');
-define('BOX_TOOLS_DEFINE_PAGE_4','Page 4');
 
 // localization box text
 define('BOX_HEADING_LOCALIZATION', 'Localization');

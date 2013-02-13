@@ -136,9 +136,6 @@
 
 // information box text in sideboxes/more_information.php - were TUTORIAL_
   define('BOX_HEADING_MORE_INFORMATION', 'More Information');
-  define('BOX_INFORMATION_PAGE_2', 'Page 2');
-  define('BOX_INFORMATION_PAGE_3', 'Page 3');
-  define('BOX_INFORMATION_PAGE_4', 'Page 4');
 
 //New billing address text
   define('SET_AS_PRIMARY' , 'Set as Primary Address');

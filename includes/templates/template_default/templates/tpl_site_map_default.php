@@ -67,16 +67,6 @@
 <?php if (SHOW_NEWSLETTER_UNSUBSCRIBE_LINK == 'true') { ?>
             <li><?php echo '<a href="' . zen_href_link(FILENAME_UNSUBSCRIBE) . '">' . BOX_INFORMATION_UNSUBSCRIBE . '</a>'; ?></li>
 <?php } ?>
-<?php if (DEFINE_PAGE_2_STATUS <= '1') { ?>
-            <li><?php echo '<a href="' . zen_href_link(FILENAME_PAGE_2) . '">' . BOX_INFORMATION_PAGE_2 . '</a>'; ?></li>
-<?php } ?>
-<?php if (DEFINE_PAGE_3_STATUS <= '1') { ?>
-            <li><?php echo '<a href="' . zen_href_link(FILENAME_PAGE_3) . '">' . BOX_INFORMATION_PAGE_3 . '</a>'; ?></li>
-<?php } ?>
-<?php if (DEFINE_PAGE_4_STATUS <= '1') { ?>
-            <li><?php echo '<a href="' . zen_href_link(FILENAME_PAGE_4) . '">' . BOX_INFORMATION_PAGE_4 . '</a>'; ?></li>
-<?php } ?>
-
          </ul></li>
      </ul>
 </div>
